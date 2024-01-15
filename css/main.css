@@ -1,0 +1,32 @@
+@import url(./reset.css);
+
+header *{
+    text-align: center;
+    line-height: 7.5rem;
+}
+
+
+
+
+
+
+div.gallery-primary{ /*conteneur */
+    max-width: 120 rem;
+    margin: 5rem auto;
+}
+div.gallery-primary ul {
+    overflow: hidden;
+
+}
+
+
+
+div.gallery-primary ul li{
+    display: block;
+    float: left;
+    margin-left: 1rem;
+    width: calc(100% / 4);
+
+
+ 
+}
